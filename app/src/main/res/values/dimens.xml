@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_item_frame_height">120dp</dimen>
+    <dimen name="list_item_single_line">48dp</dimen>
+    <dimen name="list_item_two_line">64dp</dimen>
+
+    <dimen name="list_items_spacing">8dp</dimen>
+    <dimen name="list_item_text_size">16sp</dimen>
+
+    <dimen name="list_item_section_name_text_size">14sp</dimen>
+    <dimen name="list_item_author_name_text_size">16sp</dimen>
+    <dimen name="list_item_date_text_size">14sp</dimen>
+
+    <dimen name="list_item_title_text_padding">16dp</dimen>
+    <dimen name="list_item_padding_16">16dp</dimen>
+    <dimen name="list_item_padding_8">8dp</dimen>
+
+
+
+</resources>

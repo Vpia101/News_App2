@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">News App</string>
+
+    <string name="settings_title">News Settings</string>
+
+    <!-- Base category names. -->
+    <string name="nav_world">WORLD</string>
+    <string name="nav_business">BUSINESS</string>
+    <string name="nav_science">SCIENCE</string>
+    <string name="nav_technology">TECHNOLOGY</string>
+    <string name="nav_environment">ENVIRONMENT</string>
+    <string name="nav_sport">SPORT</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- URL section category names. -->
+    <string name="url_section_world">world</string>
+    <string name="url_section_science">science</string>
+    <string name="url_section_environment">environment</string>
+    <string name="url_section_technology">technology</string>
+    <string name="url_section_sport">sport</string>
+    <string name="url_section_business">business</string>
+
+    <!-- Connection texts. -->
+    <string name="news_url_not_provided_text">No link available</string>
+    <string name="no_internet_connection">No data available\nPlease check your internet connection and swipe down to refresh</string>
+    <string name="empty_list">No news available</string>
+
+    <!-- Setting texts. -->
+    <string name="settings_order_by_label">Order News By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="settings_page_size_label">Number of Pages</string>
+    <string name="settings_page_size_key" translatable="false">page-size</string>
+    <string name="settings_page_size_default" translatable="false">10</string>
+
+    <string name="settings_page_size_5">5</string>
+    <string name="settings_page_size_10">10</string>
+    <string name="settings_page_size_25">25</string>
+    <string name="settings_page_size_50">50</string>
+
+    <string name="menu_refresh">Refresh</string>
+
+</resources>

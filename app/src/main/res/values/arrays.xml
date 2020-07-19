@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string-array name="settings_order_by_entry_items_values">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+        <item>@string/settings_order_by_relevance_value</item>
+    </string-array>
+
+    <string-array name="settings_order_by_entry_items_labels">
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
+        <item>@string/settings_order_by_relevance_label</item>
+    </string-array>
+
+    <string-array name="settings_page_size_entry_items_labels">
+        <item>@string/settings_page_size_5</item>
+        <item>@string/settings_page_size_10</item>
+        <item>@string/settings_page_size_25</item>
+        <item>@string/settings_page_size_50</item>
+    </string-array>
+
+    <string-array name="settings_page_size_entry_items_values">
+        <item>@string/settings_page_size_5</item>
+        <item>@string/settings_page_size_10</item>
+        <item>@string/settings_page_size_25</item>
+        <item>@string/settings_page_size_50</item>
+    </string-array>
+
+</resources>

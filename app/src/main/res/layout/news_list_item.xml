@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/list_item_padding_16">
+
+    <FrameLayout
+        android:id="@+id/list_item_frame"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_frame_height">
+
+        <ImageView
+            android:id="@+id/list_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/news_background" />
+
+        <TextView
+            android:id="@+id/list_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/list_item_background_color"
+            android:padding="@dimen/list_item_title_text_padding"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/list_item_text_size"
+            android:textStyle="bold"
+            tools:text="Article Title" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/list_item_author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_frame"
+        android:paddingLeft="@dimen/list_item_padding_16"
+        android:paddingRight="@dimen/list_item_padding_16"
+        android:paddingTop="@dimen/list_item_padding_8"
+        android:textSize="@dimen/list_item_author_name_text_size"
+        tools:text="Author Name" />
+
+    <TextView
+        android:id="@+id/list_item_section_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_author_name"
+        android:paddingLeft="@dimen/list_item_padding_16"
+        android:paddingRight="@dimen/list_item_padding_16"
+        android:paddingTop="@dimen/list_item_padding_8"
+        android:textSize="@dimen/list_item_section_name_text_size"
+        tools:text="Section Name" />
+
+    <TextView
+        android:id="@+id/list_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/list_item_frame"
+        android:paddingLeft="@dimen/list_item_padding_16"
+        android:paddingRight="@dimen/list_item_padding_16"
+        android:paddingTop="@dimen/list_item_padding_8"
+        android:textStyle="italic"
+        android:textSize="@dimen/list_item_date_text_size"
+        tools:text="Date" />
+
+</RelativeLayout>
